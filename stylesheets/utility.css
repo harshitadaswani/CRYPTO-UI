@@ -1,0 +1,146 @@
+@import url(base.css);
+/* calculation: 1rem: 16px */
+
+/* for headings */
+h1 {
+    font-size: var(--xl-font);
+    line-height: var(--xxl-size);
+}
+
+h2 {
+    font-size: var(--l-size);
+    line-height: var(--xl-size);
+}
+
+h3 {
+    font-size: var(--m-size);
+    line-height: var(--l-size);
+}
+
+h4 {
+    font-size: var(--s-size);
+    line-height: var(--m-size);
+}
+
+h5{
+    font-size: var(--xs-size);
+    line-height: var(--s-size);
+}
+
+/* for text */
+.txt-xl {
+    font-size: var(--xl-font);
+    line-height: var(--xxl-size);
+}
+
+.txt-l {
+    font-size: var(--l-size);
+    line-height: var(--xl-size);
+}
+
+.txt-m {
+    font-size: var(--m-size);
+    line-height: var(--l-size);
+}
+
+.txt-s {
+    font-size: var(--s-size);
+    line-height: var(--m-size);
+}
+
+.txt-xs {
+    font-size: var(--xs-size);
+    line-height: var(--s-size);
+}
+
+/* for margin */
+.m-xxl {
+    margin: var(--xxl-size);
+}
+
+.m-xl {
+    margin: var(--xl-size);
+}
+
+.m-l {
+    margin: var(--l-size);
+}
+
+.m-m {
+    margin: var(--m-size);
+}
+
+.m-s {
+    margin: var(--s-size);
+}
+
+.m-xs {
+    margin: var(--xs-size);
+}
+
+.m-auto {
+    margin: auto;
+}
+
+/* for padding */
+.p-xxl {
+    padding: var(--xxl-size);
+}
+
+.p-xl {
+    padding: var(--xl-size);
+}
+
+.p-l {
+    padding: var(--l-size);
+}
+
+.p-m {
+    padding: var(--m-size);
+}
+
+.p-s {
+    padding: var(--s-size);
+}
+
+.p-xs {
+    padding: var(--xs-size);
+}
+
+/* for border radius */
+.br-s {
+    border-radius: 5px;
+}
+
+.br-m {
+    border-radius: 10px;
+}
+
+.br-l {
+    border-radius: 15px;
+}
+
+.br-full {
+    border-radius: 999px;
+}
+
+/* for font-weight */
+.fw-black {
+    font-weight: var(--black);
+}
+
+.fw-bold {
+    font-weight: var(--bold);
+}
+
+.fw-semibold {
+    font-weight: var(--semibold);
+}
+
+.fw-regular {
+    font-weight: var(--regular);
+}
+
+.fw-light {
+    font-weight: var(--light);
+}
