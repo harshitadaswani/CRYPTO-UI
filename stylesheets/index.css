@@ -16,14 +16,13 @@
 
 .tagline {
     text-align: center;
-    color: var(--violet);
-    max-width: 80%;
+    color: var(--secondary-action);
     margin: auto;
 }
 
 .subtitle {
-    max-width: 80%;
     margin: auto;
+    text-align: center;
 }
 
 .btns {
@@ -34,14 +33,29 @@
 }
 
 .action {
-    background-color: var(--violet);
+    background-color: var(--action-color);
     color: var(--white-color);
     border: none;
+    width: 8rem;    
 }
 
 .s-action {
-    background-color: var(--action-color);
+    background-color:var(--primary-color);
     border: none;
     color: var(--white-color);
+    width: 8rem;
 }
 
+/* .s-action:hover{
+    background-color: #da8b41;
+}
+
+.action:hover{
+    background-color: #b14c5f;
+} */
+
+@media only screen and (max-width: 650px) {
+    .action,.s-action {
+        width: 7.5rem;
+    }
+}

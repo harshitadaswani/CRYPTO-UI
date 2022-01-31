@@ -2,14 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root{
-    --primary-color: #FF3B30;
-    --secondary-color: #fff6ea;
-    --action-color: #3b82f6;
+    --primary-color: #565656;
+    --action-color: #323f76;
     --grey-color: #9A9a9a;
     --black-color: #282828;
     --white-color: #ffffff;
     --lynx-white-color: #f7f7f7;
-    --violet: #534Bc7;
+    --secondary-action: #76323F;
     --lynx-grey-color: #c5c5c5;
     --primary-alert: #4F5CEB;
     --error-alert: #FF6D3D;
@@ -45,9 +44,8 @@ html {
 }
 
 body {
-    background-color: var(--secondary-color);
+    background-color: var(--lynx-white-color);
     font-family: var(--inter-font);
-    /* line-height: 1.5; */
     color: var(--black-color)
 }
 
