@@ -1,0 +1,65 @@
+.alert-div {
+    background-color: var(--lynx-grey-color);
+    margin: var(--l-size);
+    width: max-content;
+    padding: var(--l-size);
+}
+
+.alert {
+    padding: 1rem;
+    border-radius: 0.4rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
+    margin: var(--s-size) 0;
+}
+
+.icon {
+    color: #f3f3f3;
+}
+
+.primary {
+    color: #f3f3f3;
+    background-color: var(--primary-alert);
+}
+
+.success {
+    color: #f3f3f3;
+    background-color: var(--success-alert);
+}
+
+.warning {
+    color: #f3f3f3;
+    background-color: var(--warning-alert);
+}
+
+.error {
+    color: #f3f3f3;
+    background-color: var(--error-alert);
+}
+
+
+.primary-outline {
+    background-color: #f3f3f3;
+    color: var(--primary-alert);
+    border: 0.1rem solid var(--primary-alert);
+}
+
+.success-outline {
+    background-color: #f3f3f3;
+    color: var(--success-alert);
+    border: 0.1rem solid var(--success-alert);
+}
+
+.warning-outline {
+    background-color: #f3f3f3;
+    color: var(--warning-alert);
+    border: 0.1rem solid var(--warning-alert);
+}
+
+.error-outline {
+    background-color: #f3f3f3;
+    color: var(--error-alert);
+    border: 0.1rem solid var(--error-alert);
+}
