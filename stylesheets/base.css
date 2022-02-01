@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
 
 :root{
     --primary-color: #565656;
@@ -14,8 +13,7 @@
     --error-alert: #FF6D3D;
     --success-alert: #25CFAA;
     --warning-alert: #FFCA40;
-    --font: 'Playfair Display', serif;
-    --inter-font: 'Inter', sans-serif;
+    --font: 'Arvo', serif;
     --xxl-size: 4rem;
     --xl-size: 2.5rem;
     --l-size: 2rem;
@@ -39,13 +37,17 @@
     
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-color: var(--lynx-white-color);
-    font-family: var(--inter-font);
+    font-family: var(--font);
     color: var(--black-color)
 }
 
@@ -69,4 +71,8 @@ img,iframe {
 [class^="f"] {
     font-size: inherit;
     color: inherit;
+}
+
+li {
+    list-style: none;
 }
