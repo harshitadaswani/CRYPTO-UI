@@ -109,19 +109,19 @@ h5 {
 
 /* for border radius */
 .br-s {
-  border-radius: 5px;
+  border-radius: 0.3rem;
 }
 
 .br-m {
-  border-radius: 10px;
+  border-radius: 0.6rem;
 }
 
 .br-l {
-  border-radius: 15px;
+  border-radius: 1rem;
 }
 
 .br-full {
-  border-radius: 999px;
+  border-radius: 50%;
 }
 
 /* for font-weight */

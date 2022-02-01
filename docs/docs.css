@@ -1,0 +1,45 @@
+.h1-title {
+    margin-bottom: var(--l-size);
+    color: var(--secondary-action)
+    
+}
+
+.h2-title {
+    margin: var(--l-size) 0;
+    color: var(--action-color);
+}
+
+.code-snippet {
+    padding-top: var(--l-size);
+}
+
+.border-bottom {
+    padding-bottom: var(--l-size);
+    border-bottom: 0.1rem solid var(--lynx-grey-color);
+}
+
+.list-topic {
+    padding: var(--s-size) 0;
+    border-bottom: 0.1rem solid var(--lynx-grey-color);
+    color: var(--secondary-action);
+}
+
+.li-active{
+    color: var(--action-color);
+}
+
+.example-box {
+    background-color: var(--lynx-grey-color);
+    margin: var(--l-size);
+    width: max-content;
+    padding: var(--l-size);
+}
+
+.example-box * {
+    padding: var(--xs-size) var(--s-size);
+    border-bottom: 0.1rem solid var(--lynx-white-color);
+}
+
+.highlight {
+    color: var(--action-color);
+}
