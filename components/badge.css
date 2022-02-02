@@ -1,5 +1,15 @@
 .badge {
     position: relative;
+    font-size: 2rem;
+}
+
+.online, 
+.offline,
+.dnd,
+.number-badge {
+    border-radius: 50%;
+    position: absolute;
+    border: 0.1rem solid var(--lynx-grey-color);
 }
 
 .online, 
@@ -7,40 +17,28 @@
 .dnd {
     width: 1rem;
     height: 1rem;
-    border-radius: 50%;
-    position: absolute;
-    border: 0.1rem solid var(--lynx-grey-color);
+    bottom: 0.3rem;
+    left: 3rem;
 }
 
 .online {
-    background-color: green;
-    bottom: 0.3rem;
-    left: 3rem;
+    background-color: var(--green-color);
 }
 
 .offline {
-    background-color: grey;
-    bottom: 0.3rem;
-    left: 3rem;
+    background-color: var(--grey-color)
 }
 
 .dnd {
-    background-color: red;
-    bottom: 0.3rem;
-    left: 3rem;
+    background-color: var(--red-color);
 }
 
 .number-badge {
     color: var(--lynx-white-color);
     background-color: var(--action-color);
-    font-size: var(--s-size);
     width: 1.7rem;
     height: 1.7rem;
-    border-radius: 50%;
     text-align: center;
-    padding: 3px;
-    position: absolute;
     bottom: 1.2rem;
     left: 1.2rem;
-    border: 0.1rem solid var(--lynx-grey-color);
 }
