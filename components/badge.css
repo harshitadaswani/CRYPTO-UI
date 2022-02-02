@@ -1,0 +1,46 @@
+.badge {
+    position: relative;
+}
+
+.online, 
+.offline,
+.dnd {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    position: absolute;
+    border: 0.1rem solid var(--lynx-grey-color);
+}
+
+.online {
+    background-color: green;
+    bottom: 0.3rem;
+    left: 3rem;
+}
+
+.offline {
+    background-color: grey;
+    bottom: 0.3rem;
+    left: 3rem;
+}
+
+.dnd {
+    background-color: red;
+    bottom: 0.3rem;
+    left: 3rem;
+}
+
+.number-badge {
+    color: var(--lynx-white-color);
+    background-color: var(--action-color);
+    font-size: var(--s-size);
+    width: 1.7rem;
+    height: 1.7rem;
+    border-radius: 50%;
+    text-align: center;
+    padding: 3px;
+    position: absolute;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    border: 0.1rem solid var(--lynx-grey-color);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/7fa15c8e24.js" crossorigin="anonymous"></script>
+    <title>Badge | Crypto UI</title>
+</head>
+<body>
+    <div class="p-s container">
+
+        <nav class="navigation">
+            <div class="nav-left">
+                <a href="../index.html" class="txt-l fw-black p-s m-s">Crypto&nbsp;UI</a>
+            </div>
+            <div class="nav-right">
+                <a href="https://github.com/harshitadaswani" target="_blank" rel="noopener noreferrer" class="txt-l fw-black p-s m-s"><i class="fab fa-github-square icons"></i></i></a>
+                <a href="https://www.linkedin.com/in/harshitabdaswani/" target="_blank" rel="noopener noreferrer" class="txt-l fw-black p-s m-s"><i class="fab fa-linkedin icons"></i></a>
+                <a href="https://twitter.com/harshi_daswani" target="_blank" rel="noopener noreferrer" class="txt-l fw-black p-s m-s"><i class="fab fa-twitter-square icons"></i></a>
+            </div>
+        </nav>
+
+            <aside>
+                <div class="list-topic fw-semibold">
+                    <a href="../docs/introduction.html">Getting Started</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li class="p-xs m-xs"><a href="../docs/introduction.html">Introduction</a></li>
+                    <li class="p-xs m-xs"><a href="../docs/typography.html">Typography</a></li>
+                    <li class="p-xs m-xs"><a href="../docs/colors.html">Colors</a></li>
+                </ul>
+
+                <div class="list-topic fw-semibold">
+                    <a href="avatar.html">Components</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li class="p-xs m-xs"><a href="avatar.html">Avatar</a></li>
+                    <li class="p-xs m-xs"><a href="alert.html">Alert</a></li>
+                    <li class="p-xs m-xs li-active fw-bold"><a href="badge.html">Badge</a></li>
+                    <li class="p-xs m-xs"><a href="button.html">Button</a></li>
+                    <li class="p-xs m-xs"><a href="card.html">Card</a></li>
+                    <li class="p-xs m-xs"><a href="image.html">Image</a></li>
+                    <li class="p-xs m-xs"><a href="input.html">Input</a></li>                    
+                </ul>
+
+            </aside>
+
+        <main class="main-container">
+            <h1 class="h1-title">Badge</h1>
+            <p class="border-bottom">Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be used to display numbers, online / offline status, depending on where they are used.</p>
+            <h2 class="h2-title">Profile Badge</h2>
+            <p>Profile Badge is used to show the current status of the user. It can be used with 3 variants : online | offline | dnd</p>
+            <div class="example-div br-l">
+                <div class="badge">
+                    <img src="../assets/female-avatar.svg" alt="female avatar" class="avatar">
+                    <div class="online"></div>
+                </div>
+                <div class="badge">
+                    <img src="../assets/profile-pic.svg" alt="male-profile" class="avatar">
+                    <div class="dnd"></div>
+                </div>    
+                <div class="badge">
+                    <img src="../assets/male-avatar.svg" alt="male avatar" class="avatar">
+                    <div class="offline"></div>
+                </div>            
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61faef71b783be0015bbaf6c" style="width: 95%; height: 20rem;" class="code-snippet" frameborder="0"></iframe>
+            <div class="border-bottom"></div>
+
+            <h2 class="h2-title">Number Badge</h2>
+            <p>Number Badge is used to show the number of items present in the parent component.</p>
+            <div class="example-div br-l">
+                <div class="badge">
+                    <i class="fas fa-envelope icon"></i>
+                    <div class="number-badge">10</div>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-shopping-cart icon"></i>
+                    <div class="number-badge">15</div>
+                </div>    
+                <div class="badge">
+                    <i class="fas fa-comment-alt icon"></i>
+                    <div class="number-badge">20</div>
+                </div>            
+            </div>
+            <iframe src="https://www.thiscodeworks.com/embed/61faf1b5b783be0015bbaf75" style="width: 95%; height: 20rem;" class="code-snippet" frameborder="0"></iframe>
+            <div class="border-bottom"></div>
+        </main>
+
+        <footer>
+            <a href="avatar.html" class="fw-semibold txt-s m-s">Avatar</a>
+            <a href="badge.html" class="fw-semibold txt-s m-s">Badge</a>
+        </footer>
+    </div>
+</body>
+</html>

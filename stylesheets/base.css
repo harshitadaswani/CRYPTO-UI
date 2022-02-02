@@ -69,7 +69,7 @@ img,iframe {
 }
 
 [class^="f"] {
-    font-size: inherit;
+    font-size: 2rem;
     color: inherit;
 }
 
