@@ -12,39 +12,9 @@
 .btn-secondary,
 .btn-hover,
 .btn-link,
-.btn-disabled,
-.outline-primary,
-.outline-secondary,
-.outline-link,
-.outline-hover,
-.outline-disabled,
-.btn-icon {
-    padding: var(--s-size);
-    margin: var(--xs-size);
-    border-radius: 0.5rem;
-    font-size: var(--s-size);
-}
-
-.btn-primary,
-.btn-secondary,
-.btn-hover,
-.btn-link,
 .btn-disabled {
     color: var(--lynx-white-color);
     border: none;
-}
-
-.outline-primary,
-.outline-secondary,
-.outline-hover,
-.outline-link,
-.outline-disabled {
-    background-color: var(--lynx-white-color);
-}
-
-.btn-disabled,
-.outline-disabled {
-    cursor:not-allowed;
 }
 
 .btn-primary {
