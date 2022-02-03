@@ -1,0 +1,101 @@
+.border-top {
+    margin-top: var(--l-size);
+    padding-top: var(--l-size);
+    border-top: 0.1rem solid var(--lynx-grey-color);
+}
+
+.example-div svg {
+    width: 1rem;
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-hover,
+.btn-link,
+.btn-disabled,
+.outline-primary,
+.outline-secondary,
+.outline-link,
+.outline-hover,
+.outline-disabled,
+.btn-icon {
+    padding: var(--s-size);
+    margin: var(--xs-size);
+    border-radius: 0.5rem;
+    font-size: var(--s-size);
+}
+
+.btn-primary,
+.btn-secondary,
+.btn-hover,
+.btn-link,
+.btn-disabled {
+    color: var(--lynx-white-color);
+    border: none;
+}
+
+.outline-primary,
+.outline-secondary,
+.outline-hover,
+.outline-link,
+.outline-disabled {
+    background-color: var(--lynx-white-color);
+}
+
+.btn-disabled,
+.outline-disabled {
+    cursor:not-allowed;
+}
+
+.btn-primary {
+    background-color: var(--action-color);
+}
+
+.btn-secondary {
+    background-color: var(--secondary-action);
+}
+
+.btn-link {
+    background-color: var(--primary-color);
+}
+
+.btn-hover {
+    background-color: var(--red-color);
+    opacity: 1;
+}
+
+.btn-hover:hover {
+    background-color: var(--red-color);
+    opacity: 0.8;
+}
+
+.outline-primary {
+    border: 0.1rem solid var(--action-color);
+    color: var(--action-color);
+}
+
+.outline-secondary {
+    border: 0.1rem solid var(--secondary-action);
+    color: var(--secondary-action);
+}
+
+.outline-link {
+    border: 0.1rem solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.outline-hover {
+    border: 0.1rem solid var(--red-color);
+    opacity: 1;
+    color: var(--red-color);
+}
+
+.outline-hover:hover {
+    border: 0.1rem solid var(--red-color);
+    opacity: 0.8;
+    color: var(--red-color);
+}
+
+.btn-icon {
+    border: 0.1rem solid var(--black-color);
+}
