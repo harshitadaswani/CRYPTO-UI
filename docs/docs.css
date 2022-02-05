@@ -43,3 +43,11 @@
 .highlight {
     color: var(--action-color);
 }
+
+.example-white {
+    background-color: var(--white-color);
+    color: var(--grey-color);
+    width: max-content;
+    padding: var(--l-size);
+    margin: var(--l-size);
+}
