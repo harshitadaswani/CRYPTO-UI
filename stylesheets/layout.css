@@ -46,11 +46,11 @@ footer {
         /* grid-gap: 1rem; */
         grid-template-columns: 1fr;
         grid-template-areas: 
-        "header"
-        "main"
-        "main"
-        "main"
-        "footer"
+        "header header header"
+        "main main main"
+        "main main main"
+        "main main main"
+        "footer footer footer"
     }
     aside {
         display: none;
