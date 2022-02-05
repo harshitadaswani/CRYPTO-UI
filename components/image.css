@@ -1,0 +1,15 @@
+.square-img {
+    width: 150px;
+    height: 150px;
+}
+
+.round-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.responsive-img {
+    width: auto;
+    height: auto;
+}
