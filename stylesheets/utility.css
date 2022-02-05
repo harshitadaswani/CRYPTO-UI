@@ -22,7 +22,7 @@ h4 {
   line-height: var(--m-size);
 }
 
-h5 {
+h6 {
   font-size: var(--xs-size);
   line-height: var(--s-size);
 }

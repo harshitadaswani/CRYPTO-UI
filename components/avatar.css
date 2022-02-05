@@ -24,7 +24,7 @@
     margin: var(--l-size);
     width: max-content;
     padding: var(--l-size);
-    display: flex;
+    display: inline-flex;
     flex-flow: row wrap;
     align-items: center;
     gap: 3rem;
