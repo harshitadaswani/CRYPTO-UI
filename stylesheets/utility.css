@@ -145,6 +145,17 @@ h6 {
   font-weight: var(--light);
 }
 
+.btn, .outline {
+  padding: var(--s-size);
+  margin: var(--xs-size);
+  border-radius: 0.5rem;
+  font-size: var(--s-size);
+}
+
+.outline {
+  background-color: var(--lynx-white-color);
+}
+
 @media only screen and (max-width: 650px) {
   h1 {
     font-size: var(--l-size);
