@@ -145,6 +145,10 @@ h6 {
   font-weight: var(--light);
 }
 
+.txt-center{
+  text-align: center;
+}
+
 .btn, .outline {
   padding: var(--s-size);
   margin: var(--xs-size);

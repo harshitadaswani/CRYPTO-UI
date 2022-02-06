@@ -5,7 +5,7 @@
 }
 
 .h2-title {
-    margin: var(--l-size) 0;
+    margin: var(--m-size) 0;
     color: var(--action-color);
 }
 
@@ -28,14 +28,24 @@
     color: var(--action-color);
 }
 
-.example-box {
-    background-color: var(--lynx-grey-color);
-    margin: var(--l-size);
-    width: max-content;
-    padding: var(--l-size);
+.example-box,
+.example-white {
+    margin: var(--m-size);
+    padding: var(--m-size);
+    display: inline-block;
 }
 
-.example-box * {
+.example-box {
+    background-color: var(--lynx-grey-color);
+}
+
+.example-box > h1, 
+.example-box > h2,
+.example-box > h3,
+.example-box > h4,
+.example-box > h5,
+.example-box > h6
+{
     padding: var(--xs-size) var(--s-size);
     border-bottom: 0.1rem solid var(--lynx-white-color);
 }
@@ -46,8 +56,8 @@
 
 .example-white {
     background-color: var(--white-color);
+}
+
+.txt-grey {
     color: var(--grey-color);
-    width: max-content;
-    padding: var(--l-size);
-    margin: var(--l-size);
 }
