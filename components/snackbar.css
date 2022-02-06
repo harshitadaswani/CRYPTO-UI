@@ -1,0 +1,33 @@
+.snackbar {
+    background-color: var(--background-snackbar);
+    color: var(--lynx-white-color);
+    padding: var(--s-size);
+    border-radius: 0.4rem;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+}
+  
+.icon {
+    color: var(--lynx-white-color);
+    cursor: pointer;
+}
+  
+.link {
+    color: var(--link-snackbar);
+}
+  
+.content {
+    flex-grow: 1;
+}
+  
+.snackbar-stacked {
+    flex-direction: column;
+    align-items: initial;
+}
+  
+.action-link-stacked {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
