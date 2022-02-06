@@ -1,0 +1,33 @@
+.dialog-alert {
+    background-color: var(--white-color);
+    padding: var(--m-size);
+    text-align: left;
+    display: flex;
+    flex-flow: column wrap;
+    border-radius: 0.5rem;
+    margin: auto;
+}
+  
+.dialog-title {
+    margin-bottom: var(--m-size);
+}
+  
+.dialog-actions,
+.dialog-action-items {
+    padding-top: var(--l-size);
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    flex-wrap: wrap;
+}
+  
+.dialog-action {
+    text-decoration: none;
+    color: var(--secondary-action);
+}
+  
+.stacked {
+    flex-flow: column wrap;
+    align-items: flex-end;
+}
