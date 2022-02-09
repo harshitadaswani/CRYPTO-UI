@@ -1,0 +1,21 @@
+.input-txtarea-primary {
+    outline: 1px solid var(--primary-alert);
+}
+
+.input-label-primary {
+    color: var(--primary-alert);
+}
+
+.input-div-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.input-label-error {
+    color: var(--error-alert);
+}
+
+.input-username-error {
+    outline: 0.1rem solid var(--error-alert);
+    border: none;
+}
