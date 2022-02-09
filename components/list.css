@@ -1,0 +1,15 @@
+.list-title {
+    padding: var(--xs-size);
+    border-bottom: 0.1rem solid var(--black-color);
+    margin-bottom: var(--xs-size);
+    text-align: center;
+}
+
+.list-item {
+    padding: var(--xs-size);
+}
+
+.list-item-stacked {
+    padding: var(--xs-size);
+    border: 1px solid var(--grey-color);
+}
