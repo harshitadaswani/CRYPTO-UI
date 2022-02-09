@@ -1,0 +1,22 @@
+.grid-div-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-div-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid-div-2, .grid-div-3 {
+    background-color: var(--lynx-grey-color);
+    color: var(--lynx-white-color);
+}
+
+.grid-items-2 {
+    background-color: var(--action-color);
+}
+
+.grid-items-3 {
+    background-color: var(--secondary-action);
+}
