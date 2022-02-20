@@ -69,3 +69,7 @@
 .btn-icon {
     border: 0.1rem solid var(--black-color);
 }
+
+.btn-disabled, .outline-disabled {
+    cursor: not-allowed;
+}

@@ -1,6 +1,6 @@
 .snackbar {
-    background-color: var(--background-snackbar);
-    color: var(--lynx-white-color);
+    background-color: var(--lynx-white-color);
+    color: var(--black-color);
     padding: var(--s-size);
     border-radius: 0.4rem;
     display: flex;
@@ -9,12 +9,12 @@
 }
   
 .icon {
-    color: var(--lynx-white-color);
+    color: var(--black-color);
     cursor: pointer;
 }
   
 .link {
-    color: var(--link-snackbar);
+    color: var(--secondary-action);
 }
   
 .content {

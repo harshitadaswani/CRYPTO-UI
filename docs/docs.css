@@ -47,7 +47,6 @@
 .example-box > h6
 {
     padding: var(--xs-size) var(--s-size);
-    border-bottom: 0.1rem solid var(--lynx-white-color);
 }
 
 .highlight {
