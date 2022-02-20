@@ -9,7 +9,6 @@
 }
 
 .card a {
-  color: black;
   font-size: 1.1rem;
   padding: 2% 4%;
   text-decoration: none;
@@ -29,19 +28,13 @@
 
 .card i {
   font-size: 1.1rem;
-  padding: 2% 4%;
+  padding: var(--xs-size);
+  cursor: pointer;
 }
 
 .card p {
   margin-top: 0;
   padding: 0% 3%;
-}
-
-.card a:hover,
-i:hover {
-  background-color: rgba(216, 191, 216, 0.185);
-  border-radius: 50%;
-  border-style: none;
 }
 
 .action-btns-basic {
@@ -106,35 +99,6 @@ i:hover {
   align-self: center;
 }
 
-.cards {
-  width: 20rem;
-  background-color: var(--lynx-white-color);
-  height: auto;
-  cursor: pointer;
-}
-
-.bid-btn {
-  border: none;
-  background-color: var(--action-color);
-  color: var(--lynx-white-color);
-  width: 90%;
-}
-
-.cards:hover {
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.currency-img {
-  width: 1rem;
-}
-
-.price {
-  gap: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .wishlist-btn {
   position: absolute;
   top: 1rem;
@@ -144,20 +108,40 @@ i:hover {
 }
 
 .wishlist-btn:hover {
-  color: red;
+  color: var(--red-color);
   padding: var(--xs-size);
   background: var(--lynx-white-color);
 }
 
-.card-content {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  align-items: center;
-}
-
 .card-img {
   position: relative;
+}
+
+.action-btns-basic-btns {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 4%;
+}
+
+.card-basic-btns {
+  background-color: var(--lynx-white-color);
+  border: none;
+  border-radius: 3%;
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 22rem;
+}
+
+.icons-basic-btns {
+  visibility: hidden;
+}
+
+.img-basic-btns {
+  border-radius: 3%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
 }
 
 .action-btns-basic-overlay {
@@ -218,4 +202,35 @@ i:hover {
 
 .subtitle-basic-header {
   order: -1;
+}
+
+.action-btns-basic-icons {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 4%;
+}
+
+.card-basic-icons {
+  background-color: var(--lynx-white-color);
+  border: none;
+  border-radius: 3%;
+  display: flex;
+  flex-flow: column wrap;
+  margin: auto;
+  width: 22rem;
+}
+
+.card-basic-icons:hover {
+  box-shadow: var(--black-color) 0px 5px 15px;
+}
+
+.img-basic-icons {
+  border-radius: 3%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.links-basic-icons {
+  visibility: hidden;
 }
