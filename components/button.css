@@ -73,3 +73,17 @@
 .btn-disabled, .outline-disabled {
     cursor: not-allowed;
 }
+
+.floating {
+    background-color: var(--action-color);
+    color: var(--lynx-white-color);
+    border: none;
+    height: var(--m-size);
+    width: var(--m-size);
+    padding:var(--m-size);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--m-size);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
