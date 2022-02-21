@@ -1,0 +1,20 @@
+.slider-label{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.slidecontainer {
+    width: 100%; 
+}
+
+.slider {
+    width: 90%;
+    height: 1.5rem;
+    background-color: var(--lynx-grey-color);
+    accent-color: var(--action-color);
+}
+
+.slider:hover {
+    opacity: 1;
+}
