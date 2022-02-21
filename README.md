@@ -22,19 +22,20 @@ CSS3
 
 ## Components included
 
-- Avatar
-- Alert
-- Badge
-- Button
-- Card
-- Image
-- Input
-- List
-- Navigation
-- Modal
-- Rating
-- Snackbar
-- Grid
+- [Avatar](https://harshita-crypto-ui.netlify.app/components/avatar.html)
+- [Alert](https://harshita-crypto-ui.netlify.app/components/alert.html)
+- [Badge](https://harshita-crypto-ui.netlify.app/components/badge.html)
+- [Button](https://harshita-crypto-ui.netlify.app/components/button.html)
+- [Card](https://harshita-crypto-ui.netlify.app/components/card.html)
+- [Image](https://harshita-crypto-ui.netlify.app/components/image.html)
+- [Input](https://harshita-crypto-ui.netlify.app/components/input.html)
+- [List](https://harshita-crypto-ui.netlify.app/components/list.html)
+- [Navigation](https://harshita-crypto-ui.netlify.app/components/navigation.html)
+- [Modal](https://harshita-crypto-ui.netlify.app/components/modal.html)
+- [Rating](https://harshita-crypto-ui.netlify.app/components/rating.html)
+- [Snackbar](https://harshita-crypto-ui.netlify.app/components/snackbar.html)
+- [Grid](https://harshita-crypto-ui.netlify.app/components/grid.html)
+- [Slider](https://harshita-crypto-ui.netlify.app/components/slider.html)
 
 
 ## Screenshots
